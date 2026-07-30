@@ -1,0 +1,21 @@
+---
+title: "Research"
+---
+
+## Overview
+
+A two- or three-paragraph explanation of your research program.
+
+## Current themes
+
+### Operator-algebraic quantum information
+
+More detailed discussion.
+
+### Many-body and mathematical physics
+
+More detailed discussion.
+
+## Selected questions
+
+A short list of problems or directions you are currently interested in.

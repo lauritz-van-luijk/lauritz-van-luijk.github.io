@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Lauritz van Luijk"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: talks.qmd
+        text: Talks
+
+    right:
+      - text: CV
+        href: files/cv.pdf
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true

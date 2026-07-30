@@ -1,0 +1,34 @@
+---
+title: "Lauritz van Luijk"
+toc: false
+---
+
+I am a postdoctoral researcher at the Perimeter Institute for Theoretical Physics and the Institute for Quantum Computing at the University of Waterloo.
+
+My research lies at the interface of mathematical physics, quantum information theory, and operator algebras. I am interested in the mathematical structure of quantum theory, with a particular focus on operator-algebraic methods and quantum correlations.
+
+## Research interests
+
+- Operator algebras
+
+- Quantum information theory
+
+- Mathematical physics
+
+- Quantum correlations
+
+- Nonlocality
+
+- Many-body quantum systems
+
+## Links
+
+- [Curriculum Vitae](files/cv-lauritz-van-luijk.pdf)
+- [Google Scholar](https://scholar.google.de/citations?user=D7VPtVcAAAAJ&hl=en/)
+- [arXiv](https://https://arxiv.org/a/vanluijk_l_1.html)
+- [ORCID](https://orcid.org/0000-0003-3153-549X)
+
+
+## Contact
+
+**Email:** lvanluijk@perimeterinstitute.ca
