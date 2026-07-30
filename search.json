@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lauritz van Luijk",
+    "section": "",
+    "text": "I am a postdoctoral researcher at the Perimeter Institute for Theoretical Physics and the Institute for Quantum Computing at the University of Waterloo.\nMy research lies at the interface of mathematical physics, quantum information theory, and operator algebras. I am interested in the mathematical structure of quantum theory, with a particular focus on operator-algebraic methods and quantum correlations."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Lauritz van Luijk",
+    "section": "Research interests",
+    "text": "Research interests\n\nOperator algebras\nQuantum information theory\nMathematical physics\nQuantum correlations\nNonlocality\nMany-body quantum systems"
+  },
+  {
+    "objectID": "index.html#links",
+    "href": "index.html#links",
+    "title": "Lauritz van Luijk",
+    "section": "Links",
+    "text": "Links\n\nCurriculum Vitae\nGoogle Scholar\narXiv\nORCID"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Lauritz van Luijk",
+    "section": "Contact",
+    "text": "Contact\nEmail: lvanluijk@perimeterinstitute.ca"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "A two- or three-paragraph explanation of your research program."
+  },
+  {
+    "objectID": "research.html#overview",
+    "href": "research.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "A two- or three-paragraph explanation of your research program."
+  },
+  {
+    "objectID": "research.html#current-themes",
+    "href": "research.html#current-themes",
+    "title": "Research",
+    "section": "Current themes",
+    "text": "Current themes\n\nOperator-algebraic quantum information\nMore detailed discussion.\n\n\nMany-body and mathematical physics\nMore detailed discussion."
+  },
+  {
+    "objectID": "research.html#selected-questions",
+    "href": "research.html#selected-questions",
+    "title": "Research",
+    "section": "Selected questions",
+    "text": "Selected questions\nA short list of problems or directions you are currently interested in."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Coming soon."
+  },
+  {
+    "objectID": "talks.html#invited-talks",
+    "href": "talks.html#invited-talks",
+    "title": "Talks",
+    "section": "",
+    "text": "Coming soon."
+  },
+  {
+    "objectID": "talks.html#contributed-talks",
+    "href": "talks.html#contributed-talks",
+    "title": "Talks",
+    "section": "Contributed talks",
+    "text": "Contributed talks\nComing soon."
+  },
+  {
+    "objectID": "talks.html#seminar-presentations",
+    "href": "talks.html#seminar-presentations",
+    "title": "Talks",
+    "section": "Seminar presentations",
+    "text": "Seminar presentations\nComing soon."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "A complete publication list is available on my CV and Google Scholar."
+  },
+  {
+    "objectID": "publications.html#preprints",
+    "href": "publications.html#preprints",
+    "title": "Publications",
+    "section": "Preprints",
+    "text": "Preprints\nComing soon."
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal articles",
+    "text": "Journal articles\nComing soon."
+  }
+]
