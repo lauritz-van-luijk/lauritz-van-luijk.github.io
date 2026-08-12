@@ -1,34 +1,77 @@
 ---
 title: "Lauritz van Luijk"
 toc: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css">
 ---
 
-I am a postdoctoral researcher at the Perimeter Institute for Theoretical Physics and the Institute for Quantum Computing at the University of Waterloo.
 
-My research lies at the interface of mathematical physics, quantum information theory, and operator algebras. I am interested in the mathematical structure of quantum theory, with a particular focus on operator-algebraic methods and quantum correlations.
+::: {.grid}
 
-## Research interests
+::: {.g-col-12 .g-col-md-8}
 
-- Operator algebras
+Hi there! 
+I am a researcher working in quantum information theory, mathemcatical physics, and operator algebras. 
+I work as a postdoc at the
+[Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca/)
+and the
+[Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing/)
+in Waterloo, Ontario, Canada.
 
-- Quantum information theory
+I completed my PhD in 2025 at Leibniz University Hannover under the supervision of [Reinhard F. Werner](https://www.itp.uni-hannover.de/en/institute/persons/details/institute-of-theoretical-physics/emeritus-retired-professors/reinhard-werner/).
 
-- Mathematical physics
 
-- Quantum correlations
+Currently my main research interest is in understanding connections between quantum information theory, especially entanglement theory, and abstract mathematical structures in von Neumann algebras.
+This has direct physical implications for quantum systems with unboundedly many degrees of freedom like quantum many-body systems in the thermodynamic limit, or quantum field theory.
+You can read more about this and other topics I work on the [research](research.qmd) page.
 
-- Nonlocality
+:::
 
-- Many-body quantum systems
+::: {.g-col-12 .g-col-md-4}
+
+![](images/lauritz.png){.profile-photo fig-alt="Lauritz van Luijk" width=240}
+
+:::
+
+:::
+
+<!-- I'm a postdoctoral researcher at the
+[Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca/)
+and the
+[Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing)
+at the University of Waterloo.
+
+My research lies at the interface of mathematical physics, quantum information theory, and operator algebras. At the moment, I'm particularly interested in connections between quantum information theory, especially entanglement, and abstract mathematical structures in von Neumann algebras. -->
 
 ## Links
 
-- [Curriculum Vitae](files/cv-lauritz-van-luijk.pdf)
-- [Google Scholar](https://scholar.google.de/citations?user=D7VPtVcAAAAJ&hl=en/)
-- [arXiv](https://https://arxiv.org/a/vanluijk_l_1.html)
-- [ORCID](https://orcid.org/0000-0003-3153-549X)
+<p class="profile-links" align="center">
+
+<a href="files/cv-lauritz-van-luijk.pdf"><i class="fa-regular fa-file-lines"
+   style="color: var(--bs-body-color) !important;"></i> CV</a>
+&emsp;·&emsp;
+<a href="https://scholar.google.de/citations?user=D7VPtVcAAAAJ&hl=en">
+  <i class="fa-brands fa-google-scholar"
+     style="color: #4285F4 !important;"></i>
+  Google Scholar
+</a>
+&emsp;·&emsp;
+<a href="https://arxiv.org/a/vanluijk_l_1.html">
+  <i class="ai ai-arxiv" style="color: #b31b1b !important;"></i> arXiv
+</a>
+&emsp;·&emsp;
+<a href="https://orcid.org/0000-0003-3153-549X"><i class="fa-brands fa-orcid" style="color: #A6CE39 !important;"></i> ORCID</a>
+&emsp;·&emsp;
+<a href="https://bsky.app/profile/lvanluijk.bsky.social"><i class="fa-brands fa-bluesky"
+   style="color: #1185FE !important;"></i> Bluesky</a>
+
+</p>
 
 
 ## Contact
 
-**Email:** lvanluijk@perimeterinstitute.ca
+**Email:** lvanluijkⓐⓣperimeterinstitute.ca

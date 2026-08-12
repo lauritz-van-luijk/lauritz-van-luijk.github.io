@@ -1,0 +1,180 @@
+---
+title: "Publications"
+---
+
+A complete and up-to-date publication list is also available on my
+[Google Scholar](https://scholar.google.com/citations?user=D7VPtVcAAAAJ)
+profile. <!-- and in my [CV](files/cv-lauritz-van-luijk.pdf).-->
+
+## Selected publications
+
+**Quantum steering is equivalent to state-preserving conditional expectations**  
+Lauritz van Luijk, Amine Marrakchi, Tobias Osborne, Alexander Stottmeister, and Henrik Wilming.  
+Preprint, 2026.  
+[arXiv](https://arxiv.org/abs/2608.10783)
+
+**Uniqueness of purifications is equivalent to Haag duality**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+*Physical Review Letters* **136**, 040203 (2026).  
+[DOI](https://doi.org/10.1103/d7nm-gx37) · [arXiv](https://arxiv.org/abs/2509.12911)
+
+**Embezzlement of entanglement, quantum fields, and the classification of von Neumann algebras**  
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.  
+Preprint, 2024.  
+[arXiv](https://arxiv.org/abs/2401.07299)
+
+**Critical fermions are universal embezzlers**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+*Nature Physics* **21**, 1141–1146 (2025).  
+[DOI](https://doi.org/10.1038/s41567-025-02921-w) · [arXiv](https://arxiv.org/abs/2406.11747)
+
+**Energy-limited quantum dynamics**  
+Lauritz van Luijk.  
+*Communications in Mathematical Physics* **406**, 120 (2025).  
+[DOI](https://doi.org/10.1007/s00220-025-05282-w) · [arXiv](https://arxiv.org/abs/2405.10259)
+
+<div style="height: 2rem;"></div>
+
+## Full publication list
+
+### 2026
+
+**Quantum steering is equivalent to state-preserving conditional expectations**  
+Lauritz van Luijk, Amine Marrakchi, Tobias Osborne, Alexander Stottmeister, and Henrik Wilming.  
+Preprint, 2026. 
+[arXiv](https://arxiv.org/abs/2608.10783)
+
+**Sufficiency and Petz recovery for positive maps**  
+Lauritz van Luijk and Henrik Wilming.  
+Preprint, 2026. 
+[arXiv](https://arxiv.org/abs/2604.08380)
+
+**Uniqueness of purifications is equivalent to Haag duality**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+*Physical Review Letters* **136**, 040203 (2026). 
+[DOI](https://doi.org/10.1103/d7nm-gx37) · [arXiv](https://arxiv.org/abs/2509.12911)
+
+### 2025
+
+**Soft inductive limits of operator systems and a noncommutative Lazar–Lindenstrauss theorem**  
+Kristin Courtney, Niklas Galke, Lauritz van Luijk, and Alexander Stottmeister.  
+Preprint, 2025. To appear in *Journal of Operator Theory*. 
+[arXiv](https://arxiv.org/abs/2510.02019)
+
+**Gaussian fermionic embezzlement of entanglement**  
+Alessia Kera, Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+Preprint, 2025. 
+[arXiv](https://arxiv.org/abs/2509.15749)
+
+**Revisiting the operator extension of strong subadditivity**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+Preprint, 2025. 
+[arXiv](https://arxiv.org/abs/2508.03731)
+
+**Pure state entanglement and von Neumann algebras**  
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.  
+*Communications in Mathematical Physics* **406**, 296 (2025). 
+[DOI](https://doi.org/10.1007/s00220-025-05465-5) · [arXiv](https://arxiv.org/abs/2409.17739)
+
+**Convergence rates for the Trotter splitting for unbounded operators**  
+Simon Becker, Niklas Galke, Lauritz van Luijk, and Robert Salzmann.  
+*Foundations of Computational Mathematics* (2025). 
+[DOI](https://doi.org/10.1007/s10208-025-09730-w) · [arXiv](https://arxiv.org/abs/2407.04045)
+
+**Multipartite embezzlement of entanglement**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+*Quantum* **9**, 1818 (2025). 
+[DOI](https://doi.org/10.22331/q-2025-07-30-1818) · [arXiv](https://arxiv.org/abs/2409.07646)
+
+**Critical fermions are universal embezzlers**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+*Nature Physics* **21**, 1141–1146 (2025). 
+[DOI](https://doi.org/10.1038/s41567-025-02921-w) · [arXiv](https://arxiv.org/abs/2406.11747)
+
+**Energy-limited quantum dynamics**  
+Lauritz van Luijk.  
+*Communications in Mathematical Physics* **406**, 120 (2025). 
+[DOI](https://doi.org/10.1007/s00220-025-05282-w) · [arXiv](https://arxiv.org/abs/2405.10259)
+
+**A simple criterion for essential self-adjointness of Weyl pseudodifferential operators**  
+Robert Fulsche and Lauritz van Luijk.  
+*Journal of Pseudo-Differential Operators and Applications* **16**, 38 (2025). 
+[DOI](https://doi.org/10.1007/s11868-025-00699-2) · [arXiv](https://arxiv.org/abs/2304.07153)
+
+**Heisenberg-smooth operators from the phase-space perspective**  
+Robert Fulsche and Lauritz van Luijk.  
+*Mathematische Nachrichten* **298**, 2845–2866 (2025). 
+[DOI](https://doi.org/10.1002/mana.70019) · [arXiv](https://arxiv.org/abs/2410.00458)
+
+**The large-scale structure of entanglement in quantum many-body systems**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+Preprint, 2025. 
+[arXiv](https://arxiv.org/abs/2503.03833)
+
+**Deep-circuit QAOA**  
+Gereon Koßmann, Lennart Binkowski, Lauritz van Luijk, Timo Ziegler, and René Schwonnek.  
+*Quantum* **9**, 1882 (2025). 
+[DOI](https://doi.org/10.22331/q-2025-10-13-1882) · [arXiv](https://arxiv.org/abs/2210.12406)
+
+
+### 2024
+
+**Relativistic quantum fields are universal entanglement embezzlers**  
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.  
+*Physical Review Letters* **133**, 261602 (2024). 
+[DOI](https://doi.org/10.1103/PhysRevLett.133.261602) · [arXiv](https://arxiv.org/abs/2401.07292)
+
+**The Schmidt rank for the commuting operator framework**  
+Lauritz van Luijk, René Schwonnek, Alexander Stottmeister, and Reinhard F. Werner.  
+*Communications in Mathematical Physics* **405**, 152 (2024). 
+[DOI](https://doi.org/10.1007/s00220-024-05011-9) · [arXiv](https://arxiv.org/abs/2307.11619)
+
+**Convergence of dynamics on inductive systems of Banach spaces**  
+Lauritz van Luijk, Alexander Stottmeister, and Reinhard F. Werner.  
+*Annales Henri Poincaré* (2024). 
+[DOI](https://doi.org/10.1007/s00023-024-01413-6) · [arXiv](https://arxiv.org/abs/2306.16063)
+
+**Sufficiency of Rényi divergences**  
+Niklas Galke, Lauritz van Luijk, and Henrik Wilming.  
+*IEEE Transactions on Information Theory* **70**, 5057–5076 (2024). 
+[DOI](https://doi.org/10.1109/TIT.2024.3376395) · [arXiv](https://arxiv.org/abs/2304.12989)
+
+**Error bounds for Lie group representations in quantum mechanics**  
+Lauritz van Luijk, Niklas Galke, Alexander Hahn, and Daniel Burgarth.  
+*Journal of Physics A: Mathematical and Theoretical* **57**, 105301 (2024). 
+[DOI](https://doi.org/10.1088/1751-8121/ad288b) · [arXiv](https://arxiv.org/abs/2211.08582)
+
+**Embezzlement of entanglement, quantum fields, and the classification of von Neumann algebras**  
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.  
+Preprint, 2024. 
+[arXiv](https://arxiv.org/abs/2401.07299)
+
+### 2023
+
+**State-dependent Trotter limits and their approximations**  
+Daniel Burgarth, Niklas Galke, Alexander Hahn, and Lauritz van Luijk.  
+*Physical Review A* **107**, L040201 (2023). 
+[DOI](https://doi.org/10.1103/PhysRevA.107.L040201) · [arXiv](https://arxiv.org/abs/2209.14787)
+
+**Covariant catalysis requires correlations and good quantum reference frames degrade little**  
+Lauritz van Luijk, Reinhard F. Werner, and Henrik Wilming.  
+*Quantum* **7**, 1166 (2023). 
+[DOI](https://doi.org/10.22331/q-2023-11-06-1166) · [arXiv](https://arxiv.org/abs/2301.09877)
+
+**Self-adjointness of Toeplitz operators on the Segal–Bargmann space**  
+Wolfram Bauer, Lauritz van Luijk, Alexander Stottmeister, and Reinhard F. Werner.  
+*Journal of Functional Analysis* **284**, 109778 (2023). 
+[DOI](https://doi.org/10.1016/j.jfa.2022.109778) · [arXiv](https://arxiv.org/abs/2202.04687)
+
+**Exact and lower bounds for the quantum speed limit in finite-dimensional systems**  
+Mattias T. Johnsson, Lauritz van Luijk, and Daniel Burgarth.  
+*Physical Review A* **108**, 052403 (2023). 
+[DOI](https://doi.org/10.1103/PhysRevA.108.052403) · [arXiv](https://arxiv.org/abs/2304.06617)
+
+### PhD thesis
+
+**Entanglement in von Neumann Algebraic Quantum Information Theory**  
+Lauritz van Luijk.  
+*Leibniz Universität Hannover*, 2025. Supervisor: Reinhard F. Werner.
+[arXiv](https://arxiv.org/abs/2510.07563)
+

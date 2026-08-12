@@ -14,10 +14,9 @@ website:
         text: Publications
       - href: talks.qmd
         text: Talks
+      - href: teaching.qmd
+        text: Teaching
 
-    right:
-      - text: CV
-        href: files/cv.pdf
 
 format:
   html:
@@ -25,3 +24,8 @@ format:
     css: styles.css
     toc: true
     link-external-newwindow: true
+
+include-in-header:
+  text: |
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">

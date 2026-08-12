@@ -1,0 +1,58 @@
+---
+title: "Teaching"
+toc: true
+---
+
+
+# Entanglement theory for quantum systems described by von Neumann algebras
+
+This course will be given in October 2026 at [Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca).
+
+## Course description
+
+In quantum systems with infinitely many degrees of freedom, pairs of subsystems can be infinitely entangled. *But are there operationally distinct forms of infinite entanglement?*
+
+This short course gives a basic mathematical introduction to von Neumann algebras and explains why, when, and how they can be used to describe finite and infinite quantum systems and their subsystems. We will formulate quantum information-theoretic properties, including examples from cryptography and entanglement theory, in this algebraic framework. We will then discuss how some of these operational properties are equivalent to structure-theoretic properties of the von Neumann algebras describing the subsystems.
+
+In particular, the opening question is answered by identifying entanglement properties, such as embezzlement of entanglement, that distinguish setups with non-isomorphic algebras. We will see how the classification of von Neumann algebras into types I, II, and III, together with their respective subtypes, can be formulated solely in terms of operational entanglement properties.
+
+
+## Logistics
+
+The course is open to all IQC and PI members. 
+
+This is module two of the course *QIC 891: Topics in Quantum Information* offered by [University of Waterloo](https://www.uwaterloo.ca). 
+Further information can be found on the course [website](https://www.math.uwaterloo.ca/~wcleung/qic891-f2026.html).
+I warmly recommend also attending the first module [Lean-verified Quantum Information Theory](https://rodolfor-s.github.io/teaching/) by [Rodolfo Soldati](https://rodolfor-s.github.io/).
+
+
+- Location: Perimeter Institute. The precise room has not yet been decided. 
+- Dates: Tuesdays and Thursdays from October 6th to October 29th, (except for ?? and ??, which are holidays).
+- Time: 10:30am – 11:50am
+
+
+## Outline
+
+coming soon
+
+## Lecture notes
+
+coming soon
+
+## Material / references
+
+The course is based on a recent series of works with Alexander Stottmeister, Henrik Wilming and Reinhard F. Werner. 
+We started working on the topic in 2023. At the time I was a PhD student in Hanover, and I ended up writing my PhD thesis about this subject, which you can find on [arXiv](https://arxiv.org/abs/2510.07563). 
+The idea that quantum systems with infinitely many degrees of freedom are described by von Neumann algebras is pretty standard in mathematical physics. It dates back all the way to von Neumann himself and was motivation for him to develop the theory in the first place.
+The idea that quantum information-theoretic properties of systems with infinitely many degrees of freedom should be understood through algebraic properties of von Neumann algebras goes back to work on Bell’s inequality in quantum field theory by [Summers and Werner](http://www.numdam.org/item/AIHPA_1988__49_2_215_0/) from the 1980s. 
+
+It is notoriously hard to get ahold of the theory of von Neumann algebras for an outsider. 
+We will cover the basics of what we need, emphasizing intuition over details, but it would be impossible to give an acurate account of the full theory in that time. 
+What you should *not* do if you want to learn the theory is open Takesaki's books and just start reading. These books are often the standard reference, also in my works, but they are more of an encyclopedia than anything else.
+A resource I like to recommend is Hiai's lecture notes:
+
+- Fumio Hiai, [Concise Lectures on Selected Topics of von Neumann Algebras](https://ems.press/doi/10.4171/elm/32), *EMS Series of Lectures in Mathematics*, 2021.
+
+
+
+

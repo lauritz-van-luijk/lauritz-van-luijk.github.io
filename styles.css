@@ -1,1 +1,22 @@
 /* css styles */
+
+.profile-photo {
+  border-radius: 6px;
+  display: block;
+}
+
+.profile-links .ai {
+  color: var(--bs-body-color);
+}
+
+.profile-links .fa-orcid,
+.profile-links .fa-orcid::before {
+  color: #a6ce39 !important;
+  -webkit-text-fill-color: #a6ce39 !important;
+}
+
+.profile-links .fa-bluesky,
+.profile-links .fa-bluesky::before {
+  color: #1185fe !important;
+  -webkit-text-fill-color: #1185fe !important;
+}

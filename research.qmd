@@ -1,21 +1,171 @@
 ---
 title: "Research"
+toc: true
 ---
 
-## Overview
 
-A two- or three-paragraph explanation of your research program.
+<style>
+.publication-list {
+  margin-left: 1.5rem;
+}
+</style>
 
-## Current themes
 
-### Operator-algebraic quantum information
+I work on topics in quantum information theory, mathematical physics, and pure mathematics. I describe some of it below.
 
-More detailed discussion.
 
-### Many-body and mathematical physics
+### Quantum information theory meets von Neumann algebras
 
-More detailed discussion.
+I am interested in quantum-information-theoretic properties of systems with unboundedly many degrees of freedom, especially many-body systems in the thermodynamic limit and quantum field theory.
+In these settings, local subsystems are naturally described by von Neumann algebras acting on the Hilbert space of the sector under consideration. 
 
-## Selected questions
+The key idea underlying much of my recent work is that algebraic properties of these algebras encode operational properties of the subsystems, while the relative position of algebras reflects the quantum correlations (entanglement) between the subsystems. 
+I like to call this the *algebraic-operational correspondence*.
+A boring example is that a subsystem is "purely quantum" (no information can be extracted without disturbing the subsystem's state) precisely when its algebra is a factor (only scalars commute with all other elements of the algebra).
+More insterestingly, Alexander Stottmeister, Reinhard F. Werner, Henrik Wilming and I <!--[Alexander Stottmeister](https://www.itp.uni-hannover.de/ag/alexander-stottmeister), [Reinhard F. Werner](https://www.itp.uni-hannover.de/de/institut/personen/prof-dr-reinhard-f-werner), [Henrik Wilming](https://henrikwilming.github.io/), and I--> proved that the type classification of factors (types I, II, III and their respective subtypes) is captured by a family of operational entanglement properties of the bipartite system of a factor and its commutant.
+For instance, type I is characterized by having finite one-shot entanglement, while the Connes classification of type III factors is captured by the system's performance at the task of "embezzling" entanglement.
 
-A short list of problems or directions you are currently interested in.
+I also like to study the operator algebraic properties in concrete physical models. Combined with general results relating algebraic and operational properties, this reveals new information-theoretic features of those models. 
+This is exactly the strategy we used for critical fermion chains: after identifying their half-chain algebras as type III$_1$ factors in Haag duality, we could conclude that all states in the ground state sector can be used to embezzle entanglement. This work was published in [*Nature Physics*](https://www.nature.com/articles/s41567-025-02921-w).
+
+#### Publications
+
+::: {.publication-list}
+
+**Uniqueness of purifications is equivalent to Haag duality**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+*Physical Review Letters* **136**, 040203 (2026).  [DOI](https://doi.org/10.1103/d7nm-gx37) · [arXiv](https://arxiv.org/abs/2509.12911)
+
+**Pure state entanglement and von Neumann algebras**  
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.  
+*Communications in Mathematical Physics* **406**, 296 (2025). 
+[DOI](https://doi.org/10.1007/s00220-025-05465-5) · [arXiv](https://arxiv.org/abs/2409.17739)
+
+<details>
+<summary><strong>More publications</strong></summary>
+
+**Quantum steering is equivalent to state-preserving conditional expectations**  
+Lauritz van Luijk, Amine Marrakchi, Tobias Osborne, Alexander Stottmeister, and Henrik Wilming.  
+Preprint, 2026. 
+[arXiv](https://arxiv.org/abs/2608.10783)
+
+**Critical fermions are universal embezzlers**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+*Nature Physics* **21**, 1141–1146 (2025).  [DOI](https://doi.org/10.1038/s41567-025-02921-w) · [arXiv](https://arxiv.org/abs/2406.11747)
+
+**Multipartite embezzlement of entanglement**  
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
+*Quantum* **9**, 1818 (2025). 
+[DOI](https://doi.org/10.22331/q-2025-07-30-1818) · [arXiv](https://arxiv.org/abs/2409.07646)
+
+**Relativistic quantum fields are universal entanglement embezzlers**  
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.  
+*Physical Review Letters* **133**, 261602 (2024).  [DOI](https://doi.org/10.1103/PhysRevLett.133.261602) · [arXiv](https://arxiv.org/abs/2401.07292)
+
+**Embezzlement of entanglement, quantum fields, and the classification of von Neumann algebras**  
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.  
+Preprint, 2024. [arXiv](https://arxiv.org/abs/2401.07299)
+
+
+</details>
+
+:::
+
+
+
+### Rényi divergences, Petz recovery and sufficiency with positive trace-preserving maps
+
+In [this paper](https://ieeexplore.ieee.org/document/10472942), Niklas Galke, Henrik Wilming and I conjectured that a pair of quantum states can be interconverted via PTP maps with another pair if and only if sufficiently many quantum divergences are equal. 
+More concretely, we conjectured this for the sandwiched quantum Rényi divergence,.
+Originally, the question came about for CPTP maps, but we soon realized that a generic pair of states and its transpose cannot be interconverted by CPTP maps. 
+The transpose is, however, *not* seen by any of the quantum divergences studied in the literature (although invariance under the transpose is usually not an axiom).
+While we proved the conjecture in some subcases, the general case remains wide open.
+
+Motivated by this, Henrik and I set out to generalize the Petz recovery theorem (quantum relative entropy + alpha-z quantum Rényi divergences) to the class of PTP maps. In ongoing work with Anna Jenćova and a jointly supervised master's student, we're taking this to the level of von Neumann algebras.
+
+#### Publications 
+::: {.publication-list}
+
+**Sufficiency and Petz recovery for positive maps**  
+Lauritz van Luijk and Henrik Wilming.  
+Preprint, 2026. [arXiv](https://arxiv.org/abs/2604.08380)
+
+**Sufficiency of Rényi divergences**  
+Niklas Galke, Lauritz van Luijk, and Henrik Wilming.  
+*IEEE Transactions on Information Theory* **70**, 5057–5076 (2024).  [DOI](https://doi.org/10.1109/TIT.2024.3376395) · [arXiv](https://arxiv.org/abs/2304.12989)
+
+:::
+
+### State- and energy-dependent convergence rates
+
+Another line of my work concerns dynamics and approximation of dynamics in finite and infinite-dimensional quantum systems.
+In various projects, I worked on proving explicit state-dependent convergence rates for the Trotter product formula and related dynamical approximations.
+I showed how to obtain upper bounds on the energy-increase of dynamics, and how this can be combined with a novel submultiplicativity inequality for the energy-constrained norms operator or diamond norms.
+In collaboration Simon Becker, Niklas Galke, and Robert Salzmann, we applied these and other techniques to establish convergence rates of the Trotter product formula for simulating various Schrödinger and Dirac with singular, magnetic, or confining potentials.
+
+#### Publications
+
+::: {.publication-list}
+
+
+**Energy-limited quantum dynamics**  
+Lauritz van Luijk.  
+*Communications in Mathematical Physics* **406**, 120 (2025).  [DOI](https://doi.org/10.1007/s00220-025-05282-w) · [arXiv](https://arxiv.org/abs/2405.10259)
+
+**Convergence rates for the Trotter splitting for unbounded operators**  
+Simon Becker, Niklas Galke, Lauritz van Luijk, and Robert Salzmann.  
+*Foundations of Computational Mathematics* (2025).  [DOI](https://doi.org/10.1007/s10208-025-09730-w) · [arXiv](https://arxiv.org/abs/2407.04045)
+
+<details>
+<summary><strong>More publications</strong></summary>
+
+**Error bounds for Lie group representations in quantum mechanics**  
+Lauritz van Luijk, Niklas Galke, Alexander Hahn, and Daniel Burgarth.  
+*Journal of Physics A: Mathematical and Theoretical* **57**, 105301 (2024).  [DOI](https://doi.org/10.1088/1751-8121/ad288b) · [arXiv](https://arxiv.org/abs/2211.08582)
+
+**State-dependent Trotter limits and their approximations**  
+Daniel Burgarth, Niklas Galke, Alexander Hahn, and Lauritz van Luijk.  
+*Physical Review A* **107**, L040201 (2023).  [DOI](https://doi.org/10.1103/PhysRevA.107.L040201) · [arXiv](https://arxiv.org/abs/2209.14787)
+</details>
+
+:::
+
+### Operator algebras and operator theory
+
+I like to work on projects in pure mathematics from time to time, often inspired by the mathematics used to describe quantum theory. 
+Recently, I worked on a projection on soft inductive limits of operator systems and C*-algebras with Kristin Courtney, Niklas Galke, and Alexander Stottmeister. 
+We use a generalization of inductive limits of Banach spaces, introduced in [this paper](https://doi.org/10.1007/s00023-024-01413-6) by Alexander Stottmeister, Reinhard F. Werner, and myself, to prove a non-commutative version of the Lazar-Lindenstrass theorem, a classical theorem in convex geometry stating that every Choquet simplex is the projective limit of finite-dimensional simplices.
+
+
+#### Publications
+
+::: {.publication-list}
+
+**Soft inductive limits of operator systems and a noncommutative Lazar–Lindenstrauss theorem**  
+Kristin Courtney, Niklas Galke, Lauritz van Luijk, and Alexander Stottmeister.
+Preprint, 2025. To appear in: *Journal of Operator Theory*.
+[arXiv](https://arxiv.org/abs/2510.02019)
+
+**Heisenberg-smooth operators from the phase-space perspective**  
+Robert Fulsche, and Lauritz van Luijk  
+*Mathematische Nachrichten* **298**, 2845–2866 (2025).
+[DOI](https://doi.org/10.1002/mana.70019) · [arXiv](https://arxiv.org/abs/2410.00458)
+
+<details>
+<summary><strong>More publications</strong></summary>
+
+**A simple criterion for essential self-adjointness of Weyl pseudodifferential operators**  
+Robert Fulsche and Lauritz van Luijk.  
+*Journal of Pseudo-Differential Operators and Applications* **16**, 38 (2025).  [DOI](https://doi.org/10.1007/s11868-025-00699-2) · [arXiv](https://arxiv.org/abs/2304.07153)
+
+**Self-adjointness of Toeplitz operators on the Segal–Bargmann space**  
+Wolfram Bauer, Lauritz van Luijk, Alexander Stottmeister, and Reinhard F. Werner.  
+*Journal of Functional Analysis* **284**, 109778 (2023).  [DOI](https://doi.org/10.1016/j.jfa.2022.109778) · [arXiv](https://arxiv.org/abs/2202.04687)
+
+</details>
+
+:::
+
+
+Some of my works do not fit into the topics above.
+A complete list of my works is available on the [Publications](publications.qmd) page.

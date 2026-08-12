@@ -1,15 +1,91 @@
 ---
 title: "Talks"
+toc: false
 ---
 
-## Invited talks
+<div style="height: 1rem;"></div>
 
-Coming soon.
+## Selected talks
 
-## Contributed talks
+**Universal Embezzlers**  
+Long plenary talk, QIP 2024, Taipei, Taiwan — January 2024. [Video](https://www.youtube.com/watch?v=XxTFHdrJZBw)
 
-Coming soon.
+**Von Neumann algebraic quantum information theory**  
+835th WE-Heraeus Seminar, *The Mathematical Foundations of Quantum Mechanics — John von Neumann and his Impact on Physics in 2025*, Bad Honnef, Germany — May 2025.
 
-## Seminar presentations
+**Pure state entanglement and von Neumann algebras**  
+QIP 2025, Raleigh, USA — February 2025. [Video](https://www.youtube.com/watch?v=U70p9sauZ_E)
 
-Coming soon.
+**The Schmidt rank for the commuting operator framework**  
+QIP 2024, Taipei, Taiwan — January 2024. [Video](https://www.youtube.com/watch?v=PfBb9ZPHmAY)
+
+<div style="height: 1rem;"></div>
+
+
+## Talks
+
+### 2026
+
+**Convergence Rates for Trotter Product Formulas with Unbounded Generators**  
+*Symposium on Recent Advances on Quantum Algorithms for Differential Equations: Theory and Applications*, IQC, University of Waterloo, Waterloo, Canada — August 2026.
+
+**Petz recovery and sufficiency for positive trace-preserving maps**  
+IWOTA 2026 — August 2026. [Slides](files/slides-Petz_sufficiency_iwota.pdf)
+
+**Entanglement in von Neumann algebraic quantum information theory**  
+Seminar, OIST, Okinawa, Japan — July 2026.
+
+**Sufficiency and Petz recovery for positive maps**  
+Seminar, Institut Mittag-Leffler, Djursholm, Sweden — May 2026.
+
+
+### 2025
+
+**Entanglement in von Neumann algebraic quantum information theory**  
+*Operator Algebras and Quantum Information*, University of Waterloo, Waterloo, Canada — June 2025.
+
+**Von Neumann algebraic quantum information theory and entanglement in infinite quantum systems**  
+Quantum Information Seminar, Perimeter Institute, Waterloo, Canada — May 2025. [Video](https://pirsa.org/25050049)
+
+**Von Neumann algebraic quantum information theory**  
+835th WE-Heraeus Seminar, *The Mathematical Foundations of Quantum Mechanics — John von Neumann and his Impact on Physics in 2025*, Bad Honnef, Germany — May 2025.
+
+**Pure state entanglement and von Neumann algebras**  
+QIP 2025, Raleigh, USA — February 2025. [Video](https://www.youtube.com/watch?v=U70p9sauZ_E)
+
+
+### 2024
+
+**The large-scale structure of entanglement in infinite quantum systems**  
+*New trends at the intersection of quantum information theory, quantum groups and operator algebras*, Isaac Newton Institute, Cambridge, UK — December 2024. [Video](https://www.youtube.com/watch?v=JnAuZ4be2yc)
+
+**Convergence rates and energy constraints**  
+*Conquer24: Control of Quantum Systems @ Erlangen 2024*, Erlangen, Germany — December 2024.
+
+**The large-scale structure of entanglement in quantum many-body systems**  
+QLunch Seminar, University of Copenhagen, Denmark — September 2024.
+
+**Embezzlement of entanglement and the classification of von Neumann algebras**  
+Seminar, Institute for Quantum Computing, Waterloo, Canada — April 2024.
+
+**Embezzlement of entanglement, quantum fields, and the classification of von Neumann algebras**  
+SRS Quantum Information Workshop, Les Diablerets, Switzerland — February 2024.
+
+**Universal Embezzlers**  
+Long plenary talk, QIP 2024, Taipei, Taiwan — January 2024. [Video](https://www.youtube.com/watch?v=XxTFHdrJZBw)
+
+**The Schmidt rank for the commuting operator framework**  
+QIP 2024, Taipei, Taiwan — January 2024. [Video](https://www.youtube.com/watch?v=PfBb9ZPHmAY)
+
+
+### 2023
+
+**Embezzlement and the classification of type III factors**  
+Operator Algebra Seminar, University of Southern Denmark, Odense, Denmark — December 2023.
+
+**What dimension is necessary for quantum correlations in the commuting operator framework?**  
+Seminar, University of Cambridge, UK — October 2023.
+
+**Seminar talk**  
+Macquarie University, Sydney, Australia — January 2023.
+
