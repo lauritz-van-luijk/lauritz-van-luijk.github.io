@@ -10,26 +10,26 @@ profile. <!-- and in my [CV](files/cv-lauritz-van-luijk.pdf).-->
 
 **Quantum steering is equivalent to state-preserving conditional expectations**  
 Lauritz van Luijk, Amine Marrakchi, Tobias Osborne, Alexander Stottmeister, and Henrik Wilming.  
-Preprint, 2026.  
+Preprint, 2026. 
 [arXiv](https://arxiv.org/abs/2608.10783)
 
 **Uniqueness of purifications is equivalent to Haag duality**  
 Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
-*Physical Review Letters* **136**, 040203 (2026).  
+*Physical Review Letters* **136**, 040203 (2026). 
 [DOI](https://doi.org/10.1103/d7nm-gx37) · [arXiv](https://arxiv.org/abs/2509.12911)
 
 **Embezzlement of entanglement, quantum fields, and the classification of von Neumann algebras**  
 Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.  
-Preprint, 2024.  
+Preprint, 2024. 
 [arXiv](https://arxiv.org/abs/2401.07299)
 
 **Critical fermions are universal embezzlers**  
 Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.  
-*Nature Physics* **21**, 1141–1146 (2025).  
+*Nature Physics* **21**, 1141–1146 (2025). 
 [DOI](https://doi.org/10.1038/s41567-025-02921-w) · [arXiv](https://arxiv.org/abs/2406.11747)
 
 **Energy-limited quantum dynamics**  
-Lauritz van Luijk.  
+Lauritz van Luijk. 
 *Communications in Mathematical Physics* **406**, 120 (2025).  
 [DOI](https://doi.org/10.1007/s00220-025-05282-w) · [arXiv](https://arxiv.org/abs/2405.10259)
 

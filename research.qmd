@@ -22,7 +22,7 @@ In these settings, local subsystems are naturally described by von Neumann algeb
 The key idea underlying much of my recent work is that algebraic properties of these algebras encode operational properties of the subsystems, while the relative position of algebras reflects the quantum correlations (entanglement) between the subsystems. 
 I like to call this the *algebraic-operational correspondence*.
 A boring example is that a subsystem is "purely quantum" (no information can be extracted without disturbing the subsystem's state) precisely when its algebra is a factor (only scalars commute with all other elements of the algebra).
-More insterestingly, Alexander Stottmeister, Reinhard F. Werner, Henrik Wilming and I <!--[Alexander Stottmeister](https://www.itp.uni-hannover.de/ag/alexander-stottmeister), [Reinhard F. Werner](https://www.itp.uni-hannover.de/de/institut/personen/prof-dr-reinhard-f-werner), [Henrik Wilming](https://henrikwilming.github.io/), and I--> proved that the type classification of factors (types I, II, III and their respective subtypes) is captured by a family of operational entanglement properties of the bipartite system of a factor and its commutant.
+More interestingly, Alexander Stottmeister, Reinhard F. Werner, Henrik Wilming and I <!--[Alexander Stottmeister](https://www.itp.uni-hannover.de/ag/alexander-stottmeister), [Reinhard F. Werner](https://www.itp.uni-hannover.de/de/institut/personen/prof-dr-reinhard-f-werner), [Henrik Wilming](https://henrikwilming.github.io/), and I--> proved that the type classification of factors (types I, II, III and their respective subtypes) is captured by a family of operational entanglement properties of the bipartite system of a factor and its commutant.
 For instance, type I is characterized by having finite one-shot entanglement, while the Connes classification of type III factors is captured by the system's performance at the task of "embezzling" entanglement.
 
 I also like to study the operator algebraic properties in concrete physical models. Combined with general results relating algebraic and operational properties, this reveals new information-theoretic features of those models. 
@@ -100,8 +100,8 @@ Niklas Galke, Lauritz van Luijk, and Henrik Wilming.
 
 Another line of my work concerns dynamics and approximation of dynamics in finite and infinite-dimensional quantum systems.
 In various projects, I worked on proving explicit state-dependent convergence rates for the Trotter product formula and related dynamical approximations.
-I showed how to obtain upper bounds on the energy-increase of dynamics, and how this can be combined with a novel submultiplicativity inequality for the energy-constrained norms operator or diamond norms.
-In collaboration Simon Becker, Niklas Galke, and Robert Salzmann, we applied these and other techniques to establish convergence rates of the Trotter product formula for simulating various Schrödinger and Dirac with singular, magnetic, or confining potentials.
+I showed how to obtain upper bounds on the energy-increase of dynamics, and how this can be combined with a novel submultiplicativity inequality for the energy-constrained operator or diamond norms.
+In collaboration with Simon Becker, Niklas Galke, and Robert Salzmann, we applied these and other techniques to establish convergence rates of the Trotter product formula for simulating various Schrödinger and Dirac operators with singular, magnetic, or confining potentials.
 
 #### Publications
 
@@ -147,7 +147,7 @@ Preprint, 2025. To appear in: *Journal of Operator Theory*.
 [arXiv](https://arxiv.org/abs/2510.02019)
 
 **Heisenberg-smooth operators from the phase-space perspective**  
-Robert Fulsche, and Lauritz van Luijk  
+Robert Fulsche and Lauritz van Luijk  
 *Mathematische Nachrichten* **298**, 2845–2866 (2025).
 [DOI](https://doi.org/10.1002/mana.70019) · [arXiv](https://arxiv.org/abs/2410.00458)
 
