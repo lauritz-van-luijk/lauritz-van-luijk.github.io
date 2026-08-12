@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +73,37 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -111,11 +141,9 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./files/cv.pdf"> 
-<span class="menu-text">CV</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -133,13 +161,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#current-themes" id="toc-current-themes" class="nav-link" data-scroll-target="#current-themes">Current themes</a>
-  <ul class="collapse">
-  <li><a href="#operator-algebraic-quantum-information" id="toc-operator-algebraic-quantum-information" class="nav-link" data-scroll-target="#operator-algebraic-quantum-information">Operator-algebraic quantum information</a></li>
-  <li><a href="#many-body-and-mathematical-physics" id="toc-many-body-and-mathematical-physics" class="nav-link" data-scroll-target="#many-body-and-mathematical-physics">Many-body and mathematical physics</a></li>
-  </ul></li>
-  <li><a href="#selected-questions" id="toc-selected-questions" class="nav-link" data-scroll-target="#selected-questions">Selected questions</a></li>
+  <li><a href="#quantum-information-theory-meets-von-neumann-algebras" id="toc-quantum-information-theory-meets-von-neumann-algebras" class="nav-link active" data-scroll-target="#quantum-information-theory-meets-von-neumann-algebras">Quantum information theory meets von Neumann algebras</a></li>
+  <li><a href="#rényi-divergences-petz-recovery-and-sufficiency-with-positive-trace-preserving-maps" id="toc-rényi-divergences-petz-recovery-and-sufficiency-with-positive-trace-preserving-maps" class="nav-link" data-scroll-target="#rényi-divergences-petz-recovery-and-sufficiency-with-positive-trace-preserving-maps">Rényi divergences, Petz recovery and sufficiency with positive trace-preserving maps</a></li>
+  <li><a href="#state--and-energy-dependent-convergence-rates" id="toc-state--and-energy-dependent-convergence-rates" class="nav-link" data-scroll-target="#state--and-energy-dependent-convergence-rates">State- and energy-dependent convergence rates</a></li>
+  <li><a href="#operator-algebras-and-operator-theory" id="toc-operator-algebras-and-operator-theory" class="nav-link" data-scroll-target="#operator-algebras-and-operator-theory">Operator algebras and operator theory</a></li>
   </ul>
 </nav>
     </div>
@@ -165,26 +190,118 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>A two- or three-paragraph explanation of your research program.</p>
+<style>
+.publication-list {
+  margin-left: 1.5rem;
+}
+</style>
+<p>I work on topics in quantum information theory, mathematical physics, and pure mathematics. I describe some of it below.</p>
+<section id="quantum-information-theory-meets-von-neumann-algebras" class="level3">
+<h3 class="anchored" data-anchor-id="quantum-information-theory-meets-von-neumann-algebras">Quantum information theory meets von Neumann algebras</h3>
+<p>I am interested in quantum-information-theoretic properties of systems with unboundedly many degrees of freedom, especially many-body systems in the thermodynamic limit and quantum field theory. In these settings, local subsystems are naturally described by von Neumann algebras acting on the Hilbert space of the sector under consideration.</p>
+<p>The key idea underlying much of my recent work is that algebraic properties of these algebras encode operational properties of the subsystems, while the relative position of algebras reflects the quantum correlations (entanglement) between the subsystems. I like to call this the <em>algebraic-operational correspondence</em>. A boring example is that a subsystem is “purely quantum” (no information can be extracted without disturbing the subsystem’s state) precisely when its algebra is a factor (only scalars commute with all other elements of the algebra). More insterestingly, Alexander Stottmeister, Reinhard F. Werner, Henrik Wilming and I <!--[Alexander Stottmeister](https://www.itp.uni-hannover.de/ag/alexander-stottmeister), [Reinhard F. Werner](https://www.itp.uni-hannover.de/de/institut/personen/prof-dr-reinhard-f-werner), [Henrik Wilming](https://henrikwilming.github.io/), and I--> proved that the type classification of factors (types I, II, III and their respective subtypes) is captured by a family of operational entanglement properties of the bipartite system of a factor and its commutant. For instance, type I is characterized by having finite one-shot entanglement, while the Connes classification of type III factors is captured by the system’s performance at the task of “embezzling” entanglement.</p>
+<p>I also like to study the operator algebraic properties in concrete physical models. Combined with general results relating algebraic and operational properties, this reveals new information-theoretic features of those models. This is exactly the strategy we used for critical fermion chains: after identifying their half-chain algebras as type III<span class="math inline">\(_1\)</span> factors in Haag duality, we could conclude that all states in the ground state sector can be used to embezzle entanglement. This work was published in <a href="https://www.nature.com/articles/s41567-025-02921-w"><em>Nature Physics</em></a>.</p>
+<section id="publications" class="level4">
+<h4 class="anchored" data-anchor-id="publications">Publications</h4>
+<div class="publication-list">
+<p><strong>Uniqueness of purifications is equivalent to Haag duality</strong><br>
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.<br>
+<em>Physical Review Letters</em> <strong>136</strong>, 040203 (2026). <a href="https://doi.org/10.1103/d7nm-gx37">DOI</a> · <a href="https://arxiv.org/abs/2509.12911">arXiv</a></p>
+<p><strong>Pure state entanglement and von Neumann algebras</strong><br>
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.<br>
+<em>Communications in Mathematical Physics</em> <strong>406</strong>, 296 (2025). <a href="https://doi.org/10.1007/s00220-025-05465-5">DOI</a> · <a href="https://arxiv.org/abs/2409.17739">arXiv</a></p>
+<details>
+<summary>
+<strong>More publications</strong>
+</summary>
+<p><strong>Quantum steering is equivalent to state-preserving conditional expectations</strong><br>
+Lauritz van Luijk, Amine Marrakchi, Tobias Osborne, Alexander Stottmeister, and Henrik Wilming.<br>
+Preprint, 2026. <a href="https://arxiv.org/abs/2608.10783">arXiv</a></p>
+<p><strong>Critical fermions are universal embezzlers</strong><br>
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.<br>
+<em>Nature Physics</em> <strong>21</strong>, 1141–1146 (2025). <a href="https://doi.org/10.1038/s41567-025-02921-w">DOI</a> · <a href="https://arxiv.org/abs/2406.11747">arXiv</a></p>
+<p><strong>Multipartite embezzlement of entanglement</strong><br>
+Lauritz van Luijk, Alexander Stottmeister, and Henrik Wilming.<br>
+<em>Quantum</em> <strong>9</strong>, 1818 (2025). <a href="https://doi.org/10.22331/q-2025-07-30-1818">DOI</a> · <a href="https://arxiv.org/abs/2409.07646">arXiv</a></p>
+<p><strong>Relativistic quantum fields are universal entanglement embezzlers</strong><br>
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.<br>
+<em>Physical Review Letters</em> <strong>133</strong>, 261602 (2024). <a href="https://doi.org/10.1103/PhysRevLett.133.261602">DOI</a> · <a href="https://arxiv.org/abs/2401.07292">arXiv</a></p>
+<p><strong>Embezzlement of entanglement, quantum fields, and the classification of von Neumann algebras</strong><br>
+Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilming.<br>
+Preprint, 2024. <a href="https://arxiv.org/abs/2401.07299">arXiv</a></p>
+</details>
+</div>
 </section>
-<section id="current-themes" class="level2">
-<h2 class="anchored" data-anchor-id="current-themes">Current themes</h2>
-<section id="operator-algebraic-quantum-information" class="level3">
-<h3 class="anchored" data-anchor-id="operator-algebraic-quantum-information">Operator-algebraic quantum information</h3>
-<p>More detailed discussion.</p>
 </section>
-<section id="many-body-and-mathematical-physics" class="level3">
-<h3 class="anchored" data-anchor-id="many-body-and-mathematical-physics">Many-body and mathematical physics</h3>
-<p>More detailed discussion.</p>
+<section id="rényi-divergences-petz-recovery-and-sufficiency-with-positive-trace-preserving-maps" class="level3">
+<h3 class="anchored" data-anchor-id="rényi-divergences-petz-recovery-and-sufficiency-with-positive-trace-preserving-maps">Rényi divergences, Petz recovery and sufficiency with positive trace-preserving maps</h3>
+<p>In <a href="https://ieeexplore.ieee.org/document/10472942">this paper</a>, Niklas Galke, Henrik Wilming and I conjectured that a pair of quantum states can be interconverted via PTP maps with another pair if and only if sufficiently many quantum divergences are equal. More concretely, we conjectured this for the sandwiched quantum Rényi divergence,. Originally, the question came about for CPTP maps, but we soon realized that a generic pair of states and its transpose cannot be interconverted by CPTP maps. The transpose is, however, <em>not</em> seen by any of the quantum divergences studied in the literature (although invariance under the transpose is usually not an axiom). While we proved the conjecture in some subcases, the general case remains wide open.</p>
+<p>Motivated by this, Henrik and I set out to generalize the Petz recovery theorem (quantum relative entropy + alpha-z quantum Rényi divergences) to the class of PTP maps. In ongoing work with Anna Jenćova and a jointly supervised master’s student, we’re taking this to the level of von Neumann algebras.</p>
+<section id="publications-1" class="level4">
+<h4 class="anchored" data-anchor-id="publications-1">Publications</h4>
+<div class="publication-list">
+<p><strong>Sufficiency and Petz recovery for positive maps</strong><br>
+Lauritz van Luijk and Henrik Wilming.<br>
+Preprint, 2026. <a href="https://arxiv.org/abs/2604.08380">arXiv</a></p>
+<p><strong>Sufficiency of Rényi divergences</strong><br>
+Niklas Galke, Lauritz van Luijk, and Henrik Wilming.<br>
+<em>IEEE Transactions on Information Theory</em> <strong>70</strong>, 5057–5076 (2024). <a href="https://doi.org/10.1109/TIT.2024.3376395">DOI</a> · <a href="https://arxiv.org/abs/2304.12989">arXiv</a></p>
+</div>
 </section>
 </section>
-<section id="selected-questions" class="level2">
-<h2 class="anchored" data-anchor-id="selected-questions">Selected questions</h2>
-<p>A short list of problems or directions you are currently interested in.</p>
+<section id="state--and-energy-dependent-convergence-rates" class="level3">
+<h3 class="anchored" data-anchor-id="state--and-energy-dependent-convergence-rates">State- and energy-dependent convergence rates</h3>
+<p>Another line of my work concerns dynamics and approximation of dynamics in finite and infinite-dimensional quantum systems. In various projects, I worked on proving explicit state-dependent convergence rates for the Trotter product formula and related dynamical approximations. I showed how to obtain upper bounds on the energy-increase of dynamics, and how this can be combined with a novel submultiplicativity inequality for the energy-constrained norms operator or diamond norms. In collaboration Simon Becker, Niklas Galke, and Robert Salzmann, we applied these and other techniques to establish convergence rates of the Trotter product formula for simulating various Schrödinger and Dirac with singular, magnetic, or confining potentials.</p>
+<section id="publications-2" class="level4">
+<h4 class="anchored" data-anchor-id="publications-2">Publications</h4>
+<div class="publication-list">
+<p><strong>Energy-limited quantum dynamics</strong><br>
+Lauritz van Luijk.<br>
+<em>Communications in Mathematical Physics</em> <strong>406</strong>, 120 (2025). <a href="https://doi.org/10.1007/s00220-025-05282-w">DOI</a> · <a href="https://arxiv.org/abs/2405.10259">arXiv</a></p>
+<p><strong>Convergence rates for the Trotter splitting for unbounded operators</strong><br>
+Simon Becker, Niklas Galke, Lauritz van Luijk, and Robert Salzmann.<br>
+<em>Foundations of Computational Mathematics</em> (2025). <a href="https://doi.org/10.1007/s10208-025-09730-w">DOI</a> · <a href="https://arxiv.org/abs/2407.04045">arXiv</a></p>
+<details>
+<summary>
+<strong>More publications</strong>
+</summary>
+<p><strong>Error bounds for Lie group representations in quantum mechanics</strong><br>
+Lauritz van Luijk, Niklas Galke, Alexander Hahn, and Daniel Burgarth.<br>
+<em>Journal of Physics A: Mathematical and Theoretical</em> <strong>57</strong>, 105301 (2024). <a href="https://doi.org/10.1088/1751-8121/ad288b">DOI</a> · <a href="https://arxiv.org/abs/2211.08582">arXiv</a></p>
+<strong>State-dependent Trotter limits and their approximations</strong><br>
+Daniel Burgarth, Niklas Galke, Alexander Hahn, and Lauritz van Luijk.<br>
+<em>Physical Review A</em> <strong>107</strong>, L040201 (2023). <a href="https://doi.org/10.1103/PhysRevA.107.L040201">DOI</a> · <a href="https://arxiv.org/abs/2209.14787">arXiv</a>
+</details>
+</div>
+</section>
+</section>
+<section id="operator-algebras-and-operator-theory" class="level3">
+<h3 class="anchored" data-anchor-id="operator-algebras-and-operator-theory">Operator algebras and operator theory</h3>
+<p>I like to work on projects in pure mathematics from time to time, often inspired by the mathematics used to describe quantum theory. Recently, I worked on a projection on soft inductive limits of operator systems and C*-algebras with Kristin Courtney, Niklas Galke, and Alexander Stottmeister. We use a generalization of inductive limits of Banach spaces, introduced in <a href="https://doi.org/10.1007/s00023-024-01413-6">this paper</a> by Alexander Stottmeister, Reinhard F. Werner, and myself, to prove a non-commutative version of the Lazar-Lindenstrass theorem, a classical theorem in convex geometry stating that every Choquet simplex is the projective limit of finite-dimensional simplices.</p>
+<section id="publications-3" class="level4">
+<h4 class="anchored" data-anchor-id="publications-3">Publications</h4>
+<div class="publication-list">
+<p><strong>Soft inductive limits of operator systems and a noncommutative Lazar–Lindenstrauss theorem</strong><br>
+Kristin Courtney, Niklas Galke, Lauritz van Luijk, and Alexander Stottmeister. Preprint, 2025. To appear in: <em>Journal of Operator Theory</em>. <a href="https://arxiv.org/abs/2510.02019">arXiv</a></p>
+<p><strong>Heisenberg-smooth operators from the phase-space perspective</strong><br>
+Robert Fulsche, and Lauritz van Luijk<br>
+<em>Mathematische Nachrichten</em> <strong>298</strong>, 2845–2866 (2025). <a href="https://doi.org/10.1002/mana.70019">DOI</a> · <a href="https://arxiv.org/abs/2410.00458">arXiv</a></p>
+<details>
+<summary>
+<strong>More publications</strong>
+</summary>
+<p><strong>A simple criterion for essential self-adjointness of Weyl pseudodifferential operators</strong><br>
+Robert Fulsche and Lauritz van Luijk.<br>
+<em>Journal of Pseudo-Differential Operators and Applications</em> <strong>16</strong>, 38 (2025). <a href="https://doi.org/10.1007/s11868-025-00699-2">DOI</a> · <a href="https://arxiv.org/abs/2304.07153">arXiv</a></p>
+<p><strong>Self-adjointness of Toeplitz operators on the Segal–Bargmann space</strong><br>
+Wolfram Bauer, Lauritz van Luijk, Alexander Stottmeister, and Reinhard F. Werner.<br>
+<em>Journal of Functional Analysis</em> <strong>284</strong>, 109778 (2023). <a href="https://doi.org/10.1016/j.jfa.2022.109778">DOI</a> · <a href="https://arxiv.org/abs/2202.04687">arXiv</a></p>
+</details>
+</div>
+<p>Some of my works do not fit into the topics above. A complete list of my works is available on the <a href="./publications.html">Publications</a> page.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -261,7 +378,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/lauritz-van-luijk\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
