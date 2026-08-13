@@ -16,17 +16,17 @@ I work on topics in quantum information theory, mathematical physics, and pure m
 
 ### Quantum information theory meets von Neumann algebras
 
-I am interested in quantum-information-theoretic properties of systems with unboundedly many degrees of freedom, especially many-body systems in the thermodynamic limit and quantum field theory.
-In these settings, local subsystems are naturally described by von Neumann algebras acting on the Hilbert space of the sector under consideration. 
+I am interested in quantum-information-theoretic properties of systems with unboundedly many degrees of freedom, especially many-body systems in the thermodynamic limit and quantum field theory. I work on these questions together with Alexander Stottmeister, Henrik Wilming, and Reinhard F. Werner. In these settings, local subsystems are naturally described by von Neumann algebras acting on the Hilbert space of the sector under consideration.
 
-The key idea underlying much of my recent work is that algebraic properties of these algebras encode operational properties of the subsystems, while the relative position of algebras reflects the quantum correlations (entanglement) between the subsystems. 
+A key idea of this line of work is that algebraic properties of these algebras encode operational properties of the subsystems, while the relative position of algebras reflects the quantum correlations (entanglement) between the subsystems. 
 I like to call this the *algebraic-operational correspondence*.
 A boring example is that a subsystem is "purely quantum" (no information can be extracted without disturbing the subsystem's state) precisely when its algebra is a factor (only scalars commute with all other elements of the algebra).
-More interestingly, Alexander Stottmeister, Reinhard F. Werner, Henrik Wilming and I <!--[Alexander Stottmeister](https://www.itp.uni-hannover.de/ag/alexander-stottmeister), [Reinhard F. Werner](https://www.itp.uni-hannover.de/de/institut/personen/prof-dr-reinhard-f-werner), [Henrik Wilming](https://henrikwilming.github.io/), and I--> proved that the type classification of factors (types I, II, III and their respective subtypes) is captured by a family of operational entanglement properties of the bipartite system of a factor and its commutant.
+More interestingly, we showed that the type classification of factors (types I, II, III and their respective subtypes) is captured by a family of operational entanglement properties of the bipartite system of a factor and its commutant.
 For instance, type I is characterized by having finite one-shot entanglement, while the Connes classification of type III factors is captured by the system's performance at the task of "embezzling" entanglement.
 
-I also like to study the operator algebraic properties in concrete physical models. Combined with general results relating algebraic and operational properties, this reveals new information-theoretic features of those models. 
-This is exactly the strategy we used for critical fermion chains: after identifying their half-chain algebras as type III$_1$ factors in Haag duality, we could conclude that all states in the ground state sector can be used to embezzle entanglement. This work was published in [*Nature Physics*](https://www.nature.com/articles/s41567-025-02921-w).
+I also like to study the operator-algebraic properties in concrete physical models. Combined with general results relating algebraic and operational properties, this reveals new information-theoretic features of those models. 
+This is exactly the strategy we used for critical fermion chains: after identifying their half-chain algebras as type III$_1$ factors in Haag duality, we could conclude that all states in the ground-state sector can be used to embezzle entanglement. This work was published in [*Nature Physics*](https://www.nature.com/articles/s41567-025-02921-w).
+
 
 #### Publications
 
@@ -76,7 +76,7 @@ Preprint, 2024. [arXiv](https://arxiv.org/abs/2401.07299)
 ### Rényi divergences, Petz recovery and sufficiency with positive trace-preserving maps
 
 In [this paper](https://ieeexplore.ieee.org/document/10472942), Niklas Galke, Henrik Wilming and I conjectured that a pair of quantum states can be interconverted via PTP maps with another pair if and only if sufficiently many quantum divergences are equal. 
-More concretely, we conjectured this for the sandwiched quantum Rényi divergence,.
+More concretely, we conjectured this for the sandwiched quantum Rényi divergence.
 Originally, the question came about for CPTP maps, but we soon realized that a generic pair of states and its transpose cannot be interconverted by CPTP maps. 
 The transpose is, however, *not* seen by any of the quantum divergences studied in the literature (although invariance under the transpose is usually not an axiom).
 While we proved the conjecture in some subcases, the general case remains wide open.
@@ -142,7 +142,7 @@ We use a generalization of inductive limits of Banach spaces, introduced in [thi
 ::: {.publication-list}
 
 **Soft inductive limits of operator systems and a noncommutative Lazar–Lindenstrauss theorem**  
-Kristin Courtney, Niklas Galke, Lauritz van Luijk, and Alexander Stottmeister.
+Kristin Courtney, Niklas Galke, Lauritz van Luijk, and Alexander Stottmeister.  
 Preprint, 2025. To appear in: *Journal of Operator Theory*.
 [arXiv](https://arxiv.org/abs/2510.02019)
 

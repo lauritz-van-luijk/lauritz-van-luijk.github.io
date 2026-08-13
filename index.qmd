@@ -27,7 +27,9 @@ I completed my PhD in 2025 at Leibniz University Hannover under the supervision 
 
 Currently my main research interest is in understanding connections between quantum information theory, especially entanglement theory, and abstract mathematical structures in von Neumann algebras.
 This has direct physical implications for quantum systems with unboundedly many degrees of freedom like quantum many-body systems in the thermodynamic limit, or quantum field theory.
-You can read more about this and other topics I work on the [research](research.qmd) page.
+My close collaborators on this program are [Alexander Stottmeister](https://www.itp.uni-hannover.de/en/groups/translate-to-english-alexander-stottmeister) and [Henrik Wilming](https://henrikwilming.github.io).
+My PhD thesis focused on the entanglement side of this program, with Alex and Henrik effectively acting as co-supervisors.
+You can read more about this and other topics I work on my [research](research.qmd) page.
 
 :::
 
@@ -74,4 +76,4 @@ My research lies at the interface of mathematical physics, quantum information t
 
 ## Contact
 
-**Email:** lvanluijkⓐⓣperimeterinstitute.ca
+**Email:** lvanluijk ⓐⓣ perimeterinstitute ⓓⓞⓣ ca
