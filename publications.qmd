@@ -8,6 +8,10 @@ profile. <!-- and in my [CV](files/cv-lauritz-van-luijk.pdf).-->
 
 ## Selected publications
 
+**Sufficient positive maps between von Neumann algebras: Rényi divergences**  
+Anna Jenčová, and Lauritz van Luijk.
+[arXiv](http://arxiv.org/abs/2608.28510)
+
 **Quantum steering is equivalent to state-preserving conditional expectations**  
 Lauritz van Luijk, Amine Marrakchi, Tobias Osborne, Alexander Stottmeister, and Henrik Wilming.  
 Preprint, 2026. 

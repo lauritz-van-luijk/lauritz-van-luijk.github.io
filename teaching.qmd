@@ -26,9 +26,16 @@ Further information can be found on the course [website](https://www.math.uwater
 I warmly recommend also attending the first module [Lean-verified Quantum Information Theory](https://rodolfor-s.github.io/teaching/) by [Rodolfo Soldati](https://rodolfor-s.github.io/).
 
 
-- Location: Perimeter Institute. The precise room has not yet been decided. 
-- Dates: Tuesdays and Thursdays from October 6th to October 29th, (except for ?? and ??, which are holidays).
-- Time: 10:30am – 11:50am
+| Date | Time | Location |
+|---|---|---|
+| Tuesday, October 6 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
+| Thursday, October 8 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
+| Tuesday, October 20 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
+| Thursday, October 22 | 10:30–11:50 a.m. | Bob Room, Perimeter Institute |
+| Tuesday, October 27 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
+| Thursday, October 29 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
+
+There will be no lectures on October 13 or 15 during Fall Reading Week.
 
 
 ## Outline
@@ -52,7 +59,5 @@ What you should *not* do if you want to learn the theory is open Takesaki's book
 A resource I like to recommend is Hiai's lecture notes:
 
 - Fumio Hiai, [Concise Lectures on Selected Topics of von Neumann Algebras](https://ems.press/doi/10.4171/elm/32), *EMS Series of Lectures in Mathematics*, 2021.
-
-
 
 
