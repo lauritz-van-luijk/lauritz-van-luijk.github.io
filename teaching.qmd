@@ -19,9 +19,7 @@ In particular, the opening question is answered by identifying entanglement prop
 
 ## Logistics
 
-The course is open to all IQC and PI members. 
-
-This is module two of the course *QIC 891: Topics in Quantum Information* offered by [University of Waterloo](https://www.uwaterloo.ca). 
+My course is module two of the course *QIC 891: Topics in Quantum Information* offered by [University of Waterloo](https://www.uwaterloo.ca). 
 Further information can be found on the course [website](https://www.math.uwaterloo.ca/~wcleung/qic891-f2026.html).
 I warmly recommend also attending the first module [Lean-verified Quantum Information Theory](https://rodolfor-s.github.io/teaching/) by [Rodolfo Soldati](https://rodolfor-s.github.io/).
 
