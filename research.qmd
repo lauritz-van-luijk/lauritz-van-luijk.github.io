@@ -99,7 +99,8 @@ Niklas Galke, Lauritz van Luijk, and Henrik Wilming.
 <summary><strong>More publications</strong></summary>
 
 **Sufficient positive maps between von Neumann algebras: Rényi divergences**  
-Anna Jenčová, and Lauritz van Luijk.
+Anna Jenčová, and Lauritz van Luijk.  
+Preprint 2026.
 [arXiv](http://arxiv.org/abs/2608.28510)
 
 </details>

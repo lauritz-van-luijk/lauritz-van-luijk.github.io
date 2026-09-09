@@ -40,7 +40,8 @@ Lauritz van Luijk.
 ### 2026
 
 **Sufficient positive maps between von Neumann algebras: Rényi divergences**  
-Anna Jenčová, and Lauritz van Luijk.
+Anna Jenčová, and Lauritz van Luijk.  
+Preprint, 2026.
 [arXiv](http://arxiv.org/abs/2608.28510)
 
 **Quantum steering is equivalent to state-preserving conditional expectations**  
