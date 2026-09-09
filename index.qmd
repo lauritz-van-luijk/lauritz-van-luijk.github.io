@@ -15,7 +15,7 @@ format:
 ::: {.g-col-12 .g-col-md-8}
 
 Hi there! 
-I am a researcher working in quantum information theory, mathemcatical physics, and operator algebras. 
+I am a researcher working in quantum information theory, mathematical physics, and operator algebras. 
 I work as a postdoc at the
 [Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca/)
 and the

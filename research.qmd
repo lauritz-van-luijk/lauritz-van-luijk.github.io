@@ -94,6 +94,17 @@ Preprint, 2026. [arXiv](https://arxiv.org/abs/2604.08380)
 Niklas Galke, Lauritz van Luijk, and Henrik Wilming.  
 *IEEE Transactions on Information Theory* **70**, 5057–5076 (2024).  [DOI](https://doi.org/10.1109/TIT.2024.3376395) · [arXiv](https://arxiv.org/abs/2304.12989)
 
+
+<details>
+<summary><strong>More publications</strong></summary>
+
+**Sufficient positive maps between von Neumann algebras: Rényi divergences**  
+Anna Jenčová, and Lauritz van Luijk.
+[arXiv](http://arxiv.org/abs/2608.28510)
+
+</details>
+
+
 :::
 
 ### State- and energy-dependent convergence rates
