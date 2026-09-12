@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e9b1289f5f353c49b617ce48ad2bc38.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -194,32 +194,32 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Tuesday, October 6</td>
 <td>10:30–11:50 a.m.</td>
-<td>Space Room, Perimeter Institute</td>
+<td>Room #400 (Space Room)<br> 4th floor, Perimeter Institute</td>
 </tr>
 <tr class="even">
 <td>Thursday, October 8</td>
 <td>10:30–11:50 a.m.</td>
-<td>Space Room, Perimeter Institute</td>
+<td>Room #400 (Space Room)<br> 4th floor, Perimeter Institute</td>
 </tr>
 <tr class="odd">
 <td>Tuesday, October 20</td>
 <td>10:30–11:50 a.m.</td>
-<td>Space Room, Perimeter Institute</td>
+<td>Room #292 (Time Room)<br> 2nd floor, Perimeter Institute</td>
 </tr>
 <tr class="even">
 <td>Thursday, October 22</td>
 <td>10:30–11:50 a.m.</td>
-<td>Bob Room, Perimeter Institute</td>
+<td>Room #405 (Bob Room)<br> 4th floor, Perimeter Institute</td>
 </tr>
 <tr class="odd">
 <td>Tuesday, October 27</td>
 <td>10:30–11:50 a.m.</td>
-<td>Space Room, Perimeter Institute</td>
+<td>Room #301 (Alice Room)<br> 3rd floor, Perimeter Institute</td>
 </tr>
 <tr class="even">
 <td>Thursday, October 29</td>
 <td>10:30–11:50 a.m.</td>
-<td>Space Room, Perimeter Institute</td>
+<td>Room #400 (Space Room)<br> 4th floor, Perimeter Institute</td>
 </tr>
 </tbody>
 </table>
@@ -319,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/lauritz-van-luijk\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
