@@ -26,12 +26,13 @@ I warmly recommend also attending the first module [Lean-verified Quantum Inform
 
 | Date | Time | Location |
 |---|---|---|
-| Tuesday, October 6 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
-| Thursday, October 8 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
-| Tuesday, October 20 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
-| Thursday, October 22 | 10:30–11:50 a.m. | Bob Room, Perimeter Institute |
-| Tuesday, October 27 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
-| Thursday, October 29 | 10:30–11:50 a.m. | Space Room, Perimeter Institute |
+| Tuesday, October 6 | 10:30–11:50 a.m. | Room \#400 (Space Room)<br> 4th floor, Perimeter Institute |
+| Thursday, October 8 | 10:30–11:50 a.m. | Room \#400 (Space Room)<br> 4th floor, Perimeter Institute |
+| Tuesday, October 20 | 10:30–11:50 a.m. | Room \#292 (Time Room)<br> 2nd floor, Perimeter Institute |
+| Thursday, October 22 | 10:30–11:50 a.m. | Room \#405 (Bob Room)<br> 4th floor, Perimeter Institute |
+| Tuesday, October 27 | 10:30–11:50 a.m. | Room \#301 (Alice Room)<br> 3rd floor, Perimeter Institute |
+| Thursday, October 29 | 10:30–11:50 a.m. | Room \#400 (Space Room)<br> 4th floor, Perimeter Institute |
+
 
 There will be no lectures on October 13 or 15 during Fall Reading Week.
 
