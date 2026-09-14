@@ -33,13 +33,17 @@ QIP 2024, Taipei, Taiwan — January 2024. [Video](https://www.youtube.com/watch
 IWOTA 2026 — August 2026. [Slides](files/slides-Petz_sufficiency_iwota.pdf)
 
 **Entanglement in von Neumann algebraic quantum information theory**  
-Seminar, OIST, Okinawa, Japan — July 2026.
+Seminar talk, OIST, Okinawa, Japan — July 2026.
 
 **Sufficiency and Petz recovery for positive maps**  
-Seminar, Institut Mittag-Leffler, Djursholm, Sweden — May 2026.
+Seminar talk, Institut Mittag-Leffler, Djursholm, Sweden — May 2026.
 
 
 ### 2025
+
+**Entanglement in von Neumann algebraic quantum information theory**  
+Seminar talk, FAU Erlangen-Nürnberg, Erlangen, Germany — December 2025.
+
 
 **Entanglement in von Neumann algebraic quantum information theory**  
 *Operator Algebras and Quantum Information*, University of Waterloo, Waterloo, Canada — June 2025.
