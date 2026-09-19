@@ -42,7 +42,7 @@ Lauritz van Luijk.
 **An entropic characterization of Haag duality**
 Ruizhi Liu and Lauritz van Luijk.  
 Preprint 2026.
-[arxiv](https://arxiv.org/abs/2608.10783)
+[arxiv](https://arxiv.org/abs/2609.13550)
 
 **Sufficient positive maps between von Neumann algebras: Rényi divergences**  
 Anna Jenčová and Lauritz van Luijk.  

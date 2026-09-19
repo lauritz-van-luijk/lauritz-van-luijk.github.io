@@ -47,7 +47,7 @@ Lauritz van Luijk, Alexander Stottmeister, Reinhard F. Werner, and Henrik Wilmin
 **An entropic characterization of Haag duality**
 Ruizhi Liu and Lauritz van Luijk.  
 Preprint 2026.
-[arxiv](https://arxiv.org/abs/2608.10783)
+[arxiv](https://arxiv.org/abs/2609.13550)
 
 **Quantum steering is equivalent to state-preserving conditional expectations**  
 Lauritz van Luijk, Amine Marrakchi, Tobias Osborne, Alexander Stottmeister, and Henrik Wilming.  
