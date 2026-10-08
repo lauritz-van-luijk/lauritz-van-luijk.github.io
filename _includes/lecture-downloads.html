@@ -1,0 +1,46 @@
+<script>
+(() => {
+  // Public collection address; set to an empty string to disable tracking.
+  const endpoint = "https://lauritzvanluijk.goatcounter.com/count";
+  const productionOrigin = "https://lauritz-van-luijk.github.io";
+  if (!endpoint || window.location.origin !== productionOrigin) return;
+
+  // Quarto wraps the Lecture notes section in #lecture-notes. Adding an
+  // ordinary PDF link there is enough to include it in the download counts.
+  const links = [...document.querySelectorAll('#lecture-notes a[href]')]
+    .filter(link => /\.pdf$/i.test(new URL(link.href).pathname));
+  if (!links.length) return;
+
+  // Track link activations only, without an automatic teaching-page view.
+  window.goatcounter = { no_onload: true };
+  const script = document.createElement('script');
+  script.src = 'https://gc.zgo.at/count.js';
+  script.async = true;
+  script.dataset.goatcounter = endpoint;
+  document.head.appendChild(script);
+
+  for (const link of links) {
+    const url = new URL(link.href);
+    const track = event => {
+      if (event.defaultPrevented) return;
+      if (event.type === 'auxclick' && event.button !== 1) return;
+      if (typeof window.goatcounter?.count !== 'function') return;
+
+      try {
+        window.goatcounter.count({
+          path: `lecture-notes:${url.host}${url.pathname}`,
+          title: `Lecture notes: ${url.pathname.split('/').pop()}`,
+          event: true,
+          // Count every activation, including repeat clicks by one person.
+          no_session: true,
+          referrer: ''
+        });
+      } catch {
+        // Analytics failures must never interfere with opening the notes.
+      }
+    };
+    link.addEventListener('click', track);
+    link.addEventListener('auxclick', track);
+  }
+})();
+</script>

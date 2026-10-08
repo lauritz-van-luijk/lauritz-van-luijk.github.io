@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 toc: true
+include-after-body: _includes/lecture-downloads.html
 ---
 
 
@@ -12,9 +13,14 @@ This course will be given in October 2026 at [Perimeter Institute for Theoretica
 
 In quantum systems with infinitely many degrees of freedom, pairs of subsystems can be infinitely entangled. *But are there operationally distinct forms of infinite entanglement?*
 
-This short course gives a basic mathematical introduction to von Neumann algebras and explains why, when, and how they can be used to describe finite and infinite quantum systems and their subsystems. We will formulate quantum information-theoretic properties, including examples from cryptography and entanglement theory, in this algebraic framework. We will then discuss how some of these operational properties are equivalent to structure-theoretic properties of the von Neumann algebras describing the subsystems.
+This short course gives a basic mathematical introduction to von Neumann algebras and explains why, when, and how they can be used to describe finite and infinite quantum systems and their subsystems. We will formulate quantum information-theoretic properties in this algebraic framework. We will then discuss how some of these operational properties are equivalent to structure-theoretic properties of the von Neumann algebras describing the subsystems.
 
 In particular, the opening question is answered by identifying entanglement properties, such as embezzlement of entanglement, that distinguish setups with non-isomorphic algebras. We will see how the classification of von Neumann algebras into types I, II, and III, together with their respective subtypes, can be formulated solely in terms of operational entanglement properties.
+
+## Lecture notes
+
+You can download the current version of the lecture notes [here](files/lecture-notes-vN-entanglement_08-10-2026.pdf).
+These notes will be edited and extend as the course progresses.
 
 
 ## Logistics
@@ -37,14 +43,6 @@ I warmly recommend also attending the first module [Lean-verified Quantum Inform
 There will be no lectures on October 13 or 15 during Fall Reading Week.
 
 
-## Outline
-
-coming soon
-
-## Lecture notes
-
-coming soon
-
 ## Material / references
 
 The course is based on a recent series of works with Alexander Stottmeister, Henrik Wilming and Reinhard F. Werner. 
@@ -58,5 +56,4 @@ What you should *not* do if you want to learn the theory is open Takesaki's book
 A resource I like to recommend is Hiai's lecture notes:
 
 - Fumio Hiai, [Concise Lectures on Selected Topics of von Neumann Algebras](https://ems.press/doi/10.4171/elm/32), *EMS Series of Lectures in Mathematics*, 2021.
-
 
