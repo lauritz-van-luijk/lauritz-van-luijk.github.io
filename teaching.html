@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e9b1289f5f353c49b617ce48ad2bc38.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -136,7 +136,6 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course description</a></li>
   <li><a href="#logistics" id="toc-logistics" class="nav-link" data-scroll-target="#logistics">Logistics</a></li>
-  <li><a href="#outline" id="toc-outline" class="nav-link" data-scroll-target="#outline">Outline</a></li>
   <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture notes</a></li>
   <li><a href="#material-references" id="toc-material-references" class="nav-link" data-scroll-target="#material-references">Material / references</a></li>
   </ul></li>
@@ -225,13 +224,9 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>There will be no lectures on October 13 or 15 during Fall Reading Week.</p>
 </section>
-<section id="outline" class="level2">
-<h2 class="anchored" data-anchor-id="outline">Outline</h2>
-<p>coming soon</p>
-</section>
 <section id="lecture-notes" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-notes">Lecture notes</h2>
-<p>coming soon</p>
+<p>You can download the current version of the lecture notes <a href="files/lecture-notes-vN-entanglement_08-10-2026.pdf">here</a>.</p>
 </section>
 <section id="material-references" class="level2">
 <h2 class="anchored" data-anchor-id="material-references">Material / references</h2>
@@ -246,6 +241,52 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+(() => {
+  // Public collection address; set to an empty string to disable tracking.
+  const endpoint = "https://lauritzvanluijk.goatcounter.com/count";
+  const productionOrigin = "https://lauritz-van-luijk.github.io";
+  if (!endpoint || window.location.origin !== productionOrigin) return;
+
+  // Quarto wraps the Lecture notes section in #lecture-notes. Adding an
+  // ordinary PDF link there is enough to include it in the download counts.
+  const links = [...document.querySelectorAll('#lecture-notes a[href]')]
+    .filter(link => /\.pdf$/i.test(new URL(link.href).pathname));
+  if (!links.length) return;
+
+  // Track link activations only, without an automatic teaching-page view.
+  window.goatcounter = { no_onload: true };
+  const script = document.createElement('script');
+  script.src = 'https://gc.zgo.at/count.js';
+  script.async = true;
+  script.dataset.goatcounter = endpoint;
+  document.head.appendChild(script);
+
+  for (const link of links) {
+    const url = new URL(link.href);
+    const track = event => {
+      if (event.defaultPrevented) return;
+      if (event.type === 'auxclick' && event.button !== 1) return;
+      if (typeof window.goatcounter?.count !== 'function') return;
+
+      try {
+        window.goatcounter.count({
+          path: `lecture-notes:${url.host}${url.pathname}`,
+          title: `Lecture notes: ${url.pathname.split('/').pop()}`,
+          event: true,
+          // Count every activation, including repeat clicks by one person.
+          no_session: true,
+          referrer: ''
+        });
+      } catch {
+        // Analytics failures must never interfere with opening the notes.
+      }
+    };
+    link.addEventListener('click', track);
+    link.addEventListener('auxclick', track);
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -319,7 +360,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/lauritz-van-luijk\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
