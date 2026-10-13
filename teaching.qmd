@@ -42,6 +42,8 @@ I warmly recommend also attending the first module [Lean-verified Quantum Inform
 
 There will be no lectures on October 13 or 15 during Fall Reading Week.
 
+You can access recordings of the lectures at [PIRSA](https://pirsa.org/search-talks?text=Entanglement+theory+for+quantum+systems+described+by+von+Neumann+algebras).
+
 
 ## Material / references
 
