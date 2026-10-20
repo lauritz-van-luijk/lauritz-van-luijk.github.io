@@ -19,8 +19,8 @@ In particular, the opening question is answered by identifying entanglement prop
 
 ## Lecture notes
 
-You can download the current version of the lecture notes [here](files/lecture-notes-vN-entanglement_08-10-2026.pdf).
-These notes will be edited and extend as the course progresses.
+You can download the current version of the lecture notes [here](files/lecture-notes-vN-entanglement_19-10-2026.pdf).
+These notes will be edited and extended as the course progresses.
 
 You can access the exercise sheet [here](files/vNQI-exercise-sheet.pdf).
 
