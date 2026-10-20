@@ -22,6 +22,9 @@ In particular, the opening question is answered by identifying entanglement prop
 You can download the current version of the lecture notes [here](files/lecture-notes-vN-entanglement_08-10-2026.pdf).
 These notes will be edited and extend as the course progresses.
 
+You can access the exercise sheet [here](files/vNQI-exercise-sheet.pdf).
+
+
 
 ## Logistics
 
@@ -43,6 +46,7 @@ I warmly recommend also attending the first module [Lean-verified Quantum Inform
 There will be no lectures on October 13 or 15 during Fall Reading Week.
 
 You can access recordings of the lectures at [PIRSA](https://pirsa.org/search-talks?text=Entanglement+theory+for+quantum+systems+described+by+von+Neumann+algebras).
+
 
 
 ## Material / references
