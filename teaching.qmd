@@ -19,11 +19,12 @@ In particular, the opening question is answered by identifying entanglement prop
 
 ## Lecture notes
 
-You can download the current version of the lecture notes [here](files/lecture-notes-vN-entanglement_19-10-2026.pdf).
+You can download the current version of the lecture notes [here](files/lecture-notes-vN-entanglement_28-10-2026.pdf).
 These notes will be edited and extended as the course progresses.
 
 You can access the exercise sheet [here](files/vNQI-exercise-sheet.pdf).
-
+If you need credit for the course, work through the exercises on the sheet and show up to the exercise session on Tuesday, Nov 3, 10:30 am (room TBA), where you present your solutions to the group. 
+(Everybody presents $\approx 2$ sub-exercises, you don't need to prepare a presentation and you do not need to hand in your solutions). 
 
 
 ## Logistics
